@@ -1,0 +1,162 @@
+.header {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.headerParentTop {
+    width: 100%;
+    background-color: #20232A;
+}
+
+.headerTop {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1730px;
+    height: 52px;
+}
+
+.headerTopLeft {
+    display: flex;
+    margin-left: 12px;
+}
+
+.headerTopContent {
+    color: #fff;
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.headerTopIconLeft, .headerTopIconRight {
+    color: #FD3C3D;
+    font-size: 16px;
+}
+
+.headerTopText {
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.headerTopRight {
+    margin-right: 12px;
+}
+
+.headerTopIconRight {
+    transition: 0.5s all;
+}
+
+.headerTopIconRight:hover {
+    transition: 0.5s all;
+    cursor: pointer;
+    color: white;
+}
+
+.headerParentBottom {
+    width: 100%;
+    background-color: #FD3C3D;
+}
+
+.headerBottom {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1730px;
+    height: 58px;
+}
+
+.headerBottomLogo {
+    margin-left: 12px;
+}
+
+.headerBottomLogo a {
+    text-decoration: none;
+}
+
+.headerBottomNav {
+    width: 600px;
+    height: 58px;
+}
+
+.headerBottomNavList {
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 19.6px;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.headerBottomNavList a {
+    transition: 0.3s;
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 16px;
+    border-bottom: 5px solid #FD3C3D;
+}
+
+.headerBottomNavList a:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    padding-bottom: 16px;
+    border-bottom: 5px solid #fff;
+}
+
+.headerBottomIcons {
+    width: 220px;
+    height: 58px;
+}
+
+.headerBottomIconsList {
+    margin-right: 12px;
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    font-size: 16px;
+    justify-content: space-between;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.headerBottomIconsList a {
+    margin-right: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: #fff;
+}
+
+.headerBottomIconsList a:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    color: #FD3C3D;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.hoverEffect {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #FD3C3D;
+}
+.hoverEffect:hover {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+}

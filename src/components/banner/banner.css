@@ -1,0 +1,113 @@
+.bannerImg {
+    background-image: url(./img/home-img1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerInformation {
+    text-align: center;
+    width: 864px;
+    height: 470px;
+    padding-top: 190px;
+}
+
+.bannerBorderTop {
+    border-top: 6px solid #fd3c3d;
+    width: 125px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.bannerHeader {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 36px;
+    letter-spacing: 1px;
+}
+
+.bannerIronMass {
+    display: flex;
+    justify-content: center;
+}
+
+.bannerIronMassLeft {
+    color: #fd3c3d;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 100px;
+    letter-spacing: 3px;
+}
+
+.bannerIronMassRight {
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 100px;
+    letter-spacing: 3px;
+}
+
+.bannerText {
+    color: #ffffff;
+    font-family: "Lato", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 30px;
+    flex-basis: 865px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.bannerButton {
+    width: 180px;
+    height: 40px;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background: #fd3c3d;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 24px;
+    transition: 0.5s all;
+}
+
+.bannerButton:hover {
+    width: 180px;
+    height: 40px;
+    color: #000;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    background: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 24px;
+    transition: 0.5s all;
+}
